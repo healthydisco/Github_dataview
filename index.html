@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>毕业设计可视化系统</title>
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/lazyload.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="js/bootstrap.min.js"></script>
+	<link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+<header>海量github数据可视化系统</header>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<div class="container m-20">
+	<div class="row">
+		<div class="col-lg-3">
+			<div class="box1">
+				<div class="title"> 高星仓库的counts与星级数的联系  </div>
+				<div class="box1_con" id="box1"></div>
+			</div>
+			<div class="box2 m-20">
+				<div class="title"> 海量仓库数目随时间变化</div>
+				<div class="box2_con" id="box2"></div>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="box3">
+				<div class="title">程序员工作习惯关系图</div>
+				<div class="box3_con">
+					<div class="box3_con_left" id="box3_left"></div>
+					<div class="box3_con_right" id="box3_right">
+						<div class="box3_con_right_top">
+							<div class="row">
+							<!--	<div class="col-lg-4 data_bg"><p>星星XXX</p><small>仓库A</small></div>
+								<div class="col-lg-4 data_bg"><p>星星XXX</p><small>仓库B</small></div>
+								<div class="col-lg-4 data_bg"><p>星星XXX</p><small>仓库C</small></div>-->
+							</div>
+						</div>
+						<div class="box3_con_right_bot" ></div>
+					</div>
+				</div>
+			</div>
+			<div class="box4 m-20">
+				<div class="title">仓库语言使用情况</div>
+				<div class="box4_con" id="box4"></div>
+			</div>
+		</div>
+		<div class="col-lg-3 box5">
+			<div class="title">共同开发代码贡献情况</div>
+			<div class="box5_con">
+				<div class="box5_con_top" id="box5"></div>
+				<div class="title m-20">图六</div>
+				<div class="box5_con_bot" id="box6"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="js/box3_left.js"></script>
+<script type="text/javascript" src="js/box3_right.js"></script>
+<script type="text/javascript" src="js/box4.js"></script>
+
+<script type="text/javascript" src="js/box1.js"></script>
+<script type="text/javascript" src="js/box5.js"></script>
+
+<script type="text/javascript" src="js/box6.js" ></script>
+<script type="text/javascript" src="js/box2.js" ></script>
+<!--<script type="text/javascript">
+	(function () {
+		lazyload.js(['js/box1.js','js/box2.js','js/box3_left.js','js/box3_right.js','js/box4.js','js/box5.js','js/box5_1.js'],function () {
+			App.init();
+		});
+
+			}
+
+	)();
+</script>-->
+
+</body>
+</html>
